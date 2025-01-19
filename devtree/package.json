@@ -1,0 +1,17 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "Primer Proyecto con Express y TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Nicolas Gajardo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
