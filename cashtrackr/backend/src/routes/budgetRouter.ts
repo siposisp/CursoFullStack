@@ -10,7 +10,19 @@ const router = Router();
 //router.get('/', (req, res) => {
 //    console.log('Desde /api/budgets')
 //})
+
+//Para obtener
 router.get('/', BudgetController.getAll)
+
+//Para crear
+router.post('/', BudgetController.create)
+
+//Para actualizar
+router.put('/:id', BudgetController.update)
+
+//Para eliminar
+router.delete('/:id', BudgetController.delete)
+
 
 //Se exporta el router para que pueda ser importado en otro archivo, como server.ts
 export default router;
