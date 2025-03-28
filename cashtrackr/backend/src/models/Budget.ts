@@ -1,5 +1,9 @@
 import { Table, Column, Model, DataType, HasMany, BelongsTo, ForeignKey } from 'sequelize-typescript';
 
+//
+//Este archivo es como si fuera un archivo @Entity de java
+//
+
 //Un decorador es una funcion que modifica el comportamiento de una clase
 //budget es el nombre de la tabla en la base de datos
 //budgets son los presupuestos
